@@ -1,0 +1,101 @@
+/* 
+Jacob Merrick, May 2, 2026, CS 125H - Lab 3, v1
+
+Color Palette:
+Primary Blue: #2E86AB
+Light Blue: #A9D6E5
+Dark Gray: #333333
+Light Gray: #F5F5F5
+Accent Orange: #F18F01
+*/
+
+
+:root {
+    --main-color: #2E86AB;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #F5F5F5;
+    color: #333333;
+    margin: 0;
+}
+
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+
+main h2 {
+    color: #2E86AB;
+}
+
+footer p {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+a:link {
+    color: #F18F01;
+}
+
+a:visited {
+    color: #555555;
+}
+
+a:hover,
+a:focus {
+    color: #2E86AB;
+    text-decoration: underline;
+}
+
+
+p::first-letter {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+#highlight {
+    background-color: #A9D6E5;
+    padding: 10px;
+}
+
+
+.emphasis {
+    font-style: italic;
+    color: #F18F01;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+section {
+    margin: 20px;
+    text-align: left;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+}
